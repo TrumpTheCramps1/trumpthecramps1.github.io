@@ -25,6 +25,14 @@ html,body        {height:100%;}
     padding-top:15px;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+}
+
 .navbar-brand {
     position: absolute;
     width: 100%;
