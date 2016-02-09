@@ -3,12 +3,12 @@ body {
 }
 
 html,body {height: 100%;}
-.wrapper {width: 80%; height: 100%; margin: 20px auto 0 auto; background: #CCC}
+.wrapper {width: 80%; height: 100%; margin: 15px auto 0 auto; background: #CCC}
 .wide80 { width: 80%; margin: auto;}
 
 @media screen 
   and (orientation: portrait) { 
-  	.wrapper {width: 95%; height: 100%; margin: 20px auto 0 auto; background: #CCC;}
+  	.wrapper {width: 95%; height: 100%; margin: 15px auto 0 auto; background: #CCC;}
   	.wide80 {width: 95%; margin: auto;}
 }
 
