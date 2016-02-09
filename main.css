@@ -3,33 +3,13 @@ body {
 }
 
 html,body {height: 100%;}
-.wrapper {width: 95%; height: 100%; margin: 20px auto 0 auto; background: #CCC}
-.wide80 { width: 95%; margin: auto;}
+.wrapper {width: 80%; height: 100%; margin: 20px auto 0 auto; background: #CCC}
+.wide80 { width: 80%; margin: auto;}
 
-/* ----------- Non-Retina Screens ----------- */
 @media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-  	.wrapper {width: 80%; height: 100%; margin: 20px auto 0 auto; background: #CCC;}
-  	.wide80 {width: 80%; margin: auto;}
-}
-
-/* ----------- Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
-  	.wrapper {width: 80%; height: 100%; margin: 20px auto 0 auto; background: #CCC;}
-  	.wide80 {width: 80%; margin: auto;}
-}
-
-/* ----------- Portrait ----------- */
-@media screen 
-  and (orientation: landscape) { 
-  	.wrapper {width: 80%; height: 100%; margin: 20px auto 0 auto; background: #CCC;}
-  	.wide80 {width: 80%; margin: auto;}
+  and (orientation: portrait) { 
+  	.wrapper {width: 95%; height: 100%; margin: 20px auto 0 auto; background: #CCC;}
+  	.wide80 {width: 95%; margin: auto;}
 }
 
 .h_iframe        {position:relative;}
