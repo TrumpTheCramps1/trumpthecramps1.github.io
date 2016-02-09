@@ -25,6 +25,12 @@ html,body {height: 100%;}
   	.wide80 {width: 80%; margin: auto;}
 }
 
+/* ----------- Portrait ----------- */
+@media screen 
+  and (orientation: portrait) { 
+  	.wrapper {width: 80%; height: 100%; margin: 20px auto 0 auto; background: #CCC;}
+  	.wide80 {width: 80%; margin: auto;}
+}
 
 .h_iframe        {position:relative;}
 .h_iframe .ratio {display:block;width:100%;height:auto;}
