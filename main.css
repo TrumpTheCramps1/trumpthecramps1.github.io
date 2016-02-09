@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Archive';
+  src: url('archive.woff') format('woff'),
+       url('archive.otf') format('opentype');
+}
+
+.archiveFont {
+	font-family: Archive,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 body {
   padding-top: 116px;
 }
